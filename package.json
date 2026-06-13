@@ -1,0 +1,22 @@
+{
+  "name": "musiffy",
+  "version": "1.0.0",
+  "description": "⚙️ Environment Variables\r ->Backend (backend/.env)\r PORT=5000\r MONGODB_URI=your_mongodb_uri",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start":"npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INSTHOLDERR/Musify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/INSTHOLDERR/Musify/issues"
+  },
+  "homepage": "https://github.com/INSTHOLDERR/Musify#readme"
+}

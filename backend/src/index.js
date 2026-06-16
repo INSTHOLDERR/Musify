@@ -8,14 +8,7 @@ import fs from "fs";
 import { createServer } from "http";
 import cron from "node-cron";
 import dns from "dns";
-import cors from "cors";
 
-app.use(
-  cors({
-    origin: "https://musifyyy-iauk.onrender.com",
-    credentials: true,
-  })
-);
 
 
 import { initializeSocket } from "./lib/socket.js";
